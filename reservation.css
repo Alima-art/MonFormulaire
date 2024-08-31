@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #778899;
+  font-family: Arial, sans-serif;
+}
+.id_formulaire {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+.id_formulaire h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.id_formulaire label {
+  display: block;
+  margin-bottom: 5px;
+}
+.id_formulaire select,
+.id_formulaire input {
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.id_formulaire input {
+  width: 90%;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+.id_formulaire button {
+  width: 48%;
+  padding: 10px;
+  background-color: #5f9ea0;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.id_formulaire button:hover {
+  background-color: #b22222;
+}
